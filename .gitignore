@@ -1,0 +1,35 @@
+# --- Binarios grandes (baixados/embutidos, NAO versionados) ---
+# FFmpeg (build "full" do gyan.dev) - ver README
+ffmpeg.exe
+ffprobe.exe
+# Real-ESRGAN e RIFE (binarios ncnn-vulkan + modelos) - ver README
+realesrgan/
+rife/
+
+# --- Artefatos do PyInstaller ---
+build/
+dist/
+*.spec
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# --- Saidas geradas pela conversao ---
+*_fps.gif
+*fps.gif
+*fps.mp4
+*fps.webm
+*_60fps.*
+*_50fps.*
+*_30fps.*
+
+# --- Diversos ---
+*.log
+.DS_Store
+Thumbs.db
+*.tmp

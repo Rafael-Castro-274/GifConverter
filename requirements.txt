@@ -1,0 +1,3 @@
+# Arrastar-e-soltar na interface grafica (opcional, mas recomendado).
+# Sem este pacote, o app funciona apenas com o botao de selecao de arquivo.
+tkinterdnd2>=0.4.2
